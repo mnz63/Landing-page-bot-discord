@@ -5,11 +5,11 @@ let cmd =  document.getElementById('cmd')
 
 function clicarBotao() {
    if (!tema) {
-        a.style.background = 'url(https://raw.githubusercontent.com/danilomnZh63/siteakita/main/1.png)' // imagem dark
+        a.style.background = 'url(https://raw.githubusercontent.com/mnz63/SITE-AKITABOT/main/1.png)' // imagem dark
 
     tema = true;
   } else {
-    a.style.background = 'url(https://raw.githubusercontent.com/danilomnZh63/siteakita/main/2.png)' // imagem padrao
+    a.style.background = 'url(https://raw.githubusercontent.com/mnz63/SITE-AKITABOT/main/2.png)' // imagem padrao
     tema = false;
     }
 }
