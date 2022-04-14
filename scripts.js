@@ -1,7 +1,5 @@
 var tema = false;
 let a = document.getElementById('a')
-let add =  document.getElementById('add')
-let cmd =  document.getElementById('cmd')
 
 function clicarBotao() {
    if (!tema) {
