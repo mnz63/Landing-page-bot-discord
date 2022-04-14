@@ -14,13 +14,6 @@ function clicarBotao() {
     }
 }
 
-function github() {
-  window.location.href = 'https://github.com/mnz63'
-}
-
-function adicionar() {
-  window.location.href  = 'https://discord.com/oauth2/authorize?client_id=954560283580465192&permissions=8&scope=bot'
-}
 
 function mudarcor() {
   cmd.style.background = '#a1a1a1'
