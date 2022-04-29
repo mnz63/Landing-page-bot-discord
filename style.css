@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+body{
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    position: absolute;
+    display: inline;
+    font-family: 'Inder', sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.nav-border{
+    position: absolute;
+    width: 99%;
+    height: 1px;
+    background-color: white;
+}
+
+.icon{
+    width: 53px;
+    height: 53px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.icon-container {
+    position: absolute;
+    left: 85%;
+    top: 18px;
+}
+
+.music{
+    position: relative;
+    width: 76px;
+    height: 76px;
+    
+}
+
+.music:nth-child(1){
+    animation: float2 20s ease-in-out infinite;
+}
+
+.music:nth-child(2){
+    animation-delay: 1s;
+    animation: float3 10s ease-in-out infinite;
+}
+
+.music:nth-child(3){
+    animation: float4 10s ease-in-out infinite;
+
+}
+
+.details{
+    position: absolute;
+    width: 533px;
+    height: 485px;
+    left: 40px;
+    top: 156px;
+    color: white;
+}
+
+pre{
+    font-family: 'Inder', sans-serif;
+    font-size: 32px;
+}
+
+.input{
+    position: absolute;
+    width: 336px;
+    height: 83px;
+    text-align: center;
+    line-height: 80px;
+    left: 98px;
+    top: 229px;
+    font-family: 'Inder', sans-serif;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #E7008A;
+    box-sizing: border-box;
+    overflow: hidden;
+    }
+
+    .features{
+        position: absolute;
+        left: 98px;
+        top: 351px;
+    }
+
+    .input:hover{
+        color: black;
+    }
+
+    .input::before {
+        content:"";
+        position:absolute;
+        top: 0;
+        left: -30px;
+        width: 0;
+        height:100%;
+        background-color:rgb(255, 255, 255);
+        transform: skewX(35deg);
+        z-index: -1 ;
+        transition: width 1s;
+    }
+    
+    .input:hover::before{
+        width: 150%;
+    }
+
+    .akitaimg{
+        position: absolute;
+        width: 393px;
+        height: 393px;
+        left: 70%;
+        top: 200px;
+    }
+
+@keyframes float2 {
+    0%{
+        left: 1682px;
+        top: 28px;
+    }
+    25%{
+        left: 1026px;
+        top: 297px;
+    }
+    50%{
+        left: 1679px;
+        top: 506px;
+    }
+    100%{
+        left: 1682px;
+        top: 28px;
+    }
+}
+
+@keyframes float3 {
+    0%{
+        left: 591px;
+        top: 85px;
+    }
+    30%{
+        left: 743px;
+        top: 15px;}
+    50%{
+        left: 960px;
+        top: 161px;
+    }
+    70%{
+        left: 814px;
+        top: 212px;}
+    100%{
+        left: 591px;
+        top: 85px;
+    }
+}
+
+@keyframes float4 {
+    0%{
+        left: 463px;
+        top: 393px;
+    }
+    25%{
+        left: 977px;
+        top: 468px;
+    }
+    50%{
+        left: 1165px;
+        top: 544px;
+    }
+    75%{
+        left: 770px;
+        top: 685px;
+    }
+    100%{
+        left: 463px;
+        top: 393px;
+    }
+}
