@@ -130,6 +130,12 @@ pre{
         height: 393px;
         left: 70%;
         top: 200px;
+        transform: perspective(600px) rotateY(0deg);
+        transition: 1s;
+    }
+
+    .akitaimg:hover{
+        transform: perspective(600px) rotateY(-20deg);
     }
 
 @keyframes float2 {
