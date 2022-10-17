@@ -1,1 +1,1 @@
-LANDING PAGE PARA BOT DE MÚSICA DO DISCORD!
+Landing Page simples de um bot de música do Discord.
